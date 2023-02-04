@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,800;1,400&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.onboard-home-div {
+  @apply w-[103px] h-[103px] rounded-tr-xl rounded-bl-xl;
+}
+
+.div-1 {
+  background-image: linear-gradient(45deg, #9d0062, #21213c);
+}
+.div-2 {
+  background-image: linear-gradient(190deg, #9d0062, #21213c);
+  box-shadow: 0 1px 4px 0 black;
+}
+
+.onboard-text {
+  background: linear-gradient(190deg, #9d0062, #21213c);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.onboard-page2-div {
+  @apply sm:w-[516px] sm:h-[360px] absolute sm:top-[-130px] sm:left-[5px] sm:rotate-[26.42deg] 
+  
+  md:w-[870px] md:h-[400px] md:top-[-130px] md:left-[-3px] md:rotate-[20deg] 
+  
+  
+  lg:w-[1100px] lg:h-[600px] lg:top-[-250px] lg:left-[-25px] lg:rotate-[20deg];
+}
+
+.onboard-page2-div-color {
+  background-image: linear-gradient(126.35deg, #9d0062 12.07%, #21213c 86.76%);
+}
+
+.input {
+  background: transparent;
+}
